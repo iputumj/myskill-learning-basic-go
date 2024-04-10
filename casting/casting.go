@@ -11,9 +11,4 @@ func main() {
 
 	var b int32 = int32(24.00)
 	fmt.Println(b)
-
-	/**
-	 * A method of declaring a variable whose data type is determined by the data type of its value, which is contradictory to the first method.
-	 * With this type of method, the var keywork and data type don't need to be written.
-	 */
 }
