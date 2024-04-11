@@ -17,6 +17,10 @@ func main() {
 	fmt.Println(circumference)
 }
 
+/**
+ * (value float64) is parameters
+ * (float64, float64) is the data type of the multiple return
+ */
 func calculate(value float64) (float64, float64) {
 	area := math.Pi * math.Pow(value/2, 2)
 	circumference := math.Pi * value
